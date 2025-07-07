@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureBloom Organics - Our Products</title>
+    <meta name="description" content="Explore the full range of organic and chemical-free skincare products from NatureBloom Organics. Find your perfect natural beauty solution.">
+    <meta name="keywords" content="NatureBloom Organics products, organic facial care, natural body lotion, chemical-free cleanser, organic hair care, rosehip oil, lavender lotion, green tea cleanser, hyaluronic serum, coconut scrub, herbal hand cream, argan oil shampoo, aloe vera conditioner, daily skincare, natural cleanser, rose toner, hydrating moisturizer, natural sunscreen, turmeric serum, lavender night oil">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #4A4A4A; /* Darker gray for general text on white backgrounds */
+            background-color: #F7FAFC; /* Lightest gray background */
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Brand Colors (Shades of Green) */
+        .text-brand-primary {
+            color: #388E3C; /* Green 700 - Darker vibrant green */
+        }
+        .text-brand-secondary {
+            color: #8BC34A; /* Light Green 500 - Lighter green accent */
+        }
+        .bg-brand-light {
+            background-color: #E8F5E9; /* Lightest Green */
+        }
+        .bg-brand-accent {
+            background-color: #C8E6C9; /* Green 100 - Slightly darker light green */
+        }
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); /* Lightest Green to Light Green gradient */
+        }
+        .btn-primary {
+            background-color: #388E3C; /* Green 700 */
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2E7D32; /* Green 800 - Darker green on hover */
+            transform: translateY(-2px);
+        }
+        .footer-bg {
+            background-color: #1B5E20; /* Dark Green 900 for footer */
+        }
+        .product-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        /* White Outline Effect for Text */
+        .text-outline-white {
+            text-shadow:
+                -1px -1px 0 #FFF,
+                1px -1px 0 #FFF,
+                -1px 1px 0 #FFF,
+                1px 1px 0 #FFF;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-brand-primary">NatureBloom Organics</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Home</a></li>
+                    <li><a href="products.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Products</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Hero Section -->
+    <section class="bg-gradient-hero py-16 md:py-24 text-center rounded-b-3xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-4 text-brand-primary">
+                Our Garden of Skincare
+            </h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-700">
+                Hand-picked ingredients, lovingly crafted formulas. Explore our full collection designed to nourish and revitalize your skin, naturally.
+            </p>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-brand-primary">
+                🌿 Daily Natural Skincare Essentials everyone require
+            </h2>
+            <p class="text-center text-lg mb-8 max-w-3xl mx-auto text-gray-700">
+                These are the products you need to use, <strong>[Here we also tell you in which order you need to use your skincare essentials.]</strong>
+            </p>
+
+            <!-- Morning Routine -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold mb-8 text-brand-primary border-b-2 border-brand-primary pb-2 inline-block">
+                    🌅 Morning Routine (Before Office)
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+                    <!-- Product 1: Gentle Herbal Cleanser -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Herbal+Cleanser" alt="Bottle of NatureBloom Gentle Herbal Cleanser" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Gentle Herbal Cleanser</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Aloe Vera, Neem, Cucumber</p>
+                        <p class="text-gray-700 text-center mb-2">🧼 Use: Wash your face to remove oil, dirt, and impurities from the night.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Prepares your skin for hydration and protection.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$24.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 2: Rose Water Toner -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Rose+Water+Toner" alt="Bottle of NatureBloom Rose Water Toner" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Rose Water Toner</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Steam-distilled rose petals</p>
+                        <p class="text-gray-700 text-center mb-2">💧 Use: Spray or apply with a cotton pad after cleansing.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Tightens pores and balances skin pH.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$18.50</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 3: Turmeric Face Serum -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Turmeric+Face+Serum" alt="Dropper bottle of NatureBloom Turmeric Face Serum" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Turmeric Face Serum</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Turmeric, Saffron, Almond Oil</p>
+                        <p class="text-gray-700 text-center mb-2">✨ Use: Gently pat a few drops onto clean skin.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Brightens skin and helps reduce blemishes or dark spots.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$38.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 4: Hydrating Moisturizer -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Hydrating+Moisturizer" alt="Jar of NatureBloom Hydrating Moisturizer" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Hydrating Moisturizer</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Shea Butter, Jojoba Oil, Vitamin E</p>
+                        <p class="text-gray-700 text-center mb-2">💦 Use: Apply evenly over face and neck.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Keeps skin nourished and soft throughout the day.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$30.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 5: Natural Sunscreen -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Natural+Sunscreen" alt="Tube of NatureBloom Natural Sunscreen" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Natural Sunscreen (SPF 30 or more)</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Zinc Oxide, Coconut Oil, Green Tea Extract</p>
+                        <p class="text-gray-700 text-center mb-2">☀️ Use: Apply generously as the final step before makeup (if any).</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Protects skin from harmful UV rays and sun damage.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$28.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Night Routine -->
+            <div>
+                <h3 class="text-3xl font-bold mb-8 text-brand-primary border-b-2 border-brand-primary pb-2 inline-block">
+                    🌙 Night Routine (After Office)
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+                    <!-- Product 1: Gentle Herbal Cleanser (Night) -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Herbal+Cleanser+Night" alt="Bottle of NatureBloom Gentle Herbal Cleanser" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Gentle Herbal Cleanser</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Aloe Vera, Neem, Cucumber</p>
+                        <p class="text-gray-700 text-center mb-2">🧖 Use: Clean your face to remove pollution, sweat, makeup.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Essential for removing daily impurities and preparing for repair.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$24.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 2: Rose Water Toner (Night) -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Rose+Water+Toner+Night" alt="Bottle of NatureBloom Rose Water Toner" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Rose Water Toner</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Steam-distilled rose petals</p>
+                        <p class="text-gray-700 text-center mb-2">🌸 Use: Calm and refresh your skin after cleansing.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Soothes and prepares skin to absorb night treatments.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$18.50</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+
+                    <!-- Product 3: Lavender Night Oil -->
+                    <div class="bg-brand-light rounded-xl shadow-lg p-6 flex flex-col items-center product-card">
+                        <img src="https://placehold.co/300x300/C8E6C9/388E3C?text=Lavender+Night+Oil" alt="Bottle of NatureBloom Lavender Night Oil" class="rounded-lg mb-4 w-full max-w-xs h-auto object-cover">
+                        <h4 class="text-2xl font-semibold mb-2 text-brand-primary">Lavender Night Oil</h4>
+                        <p class="text-gray-700 text-center mb-2">Made with: Lavender, Argan Oil, Vitamin C</p>
+                        <p class="text-gray-700 text-center mb-2">🌙 Use: Massage 2–3 drops gently into your skin before sleep.</p>
+                        <p class="text-gray-700 text-center mb-4 flex-grow">💡 Why: Repairs and rejuvenates your skin overnight.</p>
+                        <span class="text-xl font-bold text-brand-primary mb-4">$32.00</span>
+                        <button class="btn-primary text-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bg text-white py-8">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 NatureBloom Organics. All rights reserved.</p>
+            <p class="mt-2">Crafted with <span class="text-red-400">&hearts;</span> for you and the planet.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
