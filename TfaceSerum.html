@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureBloom Organics - Turmeric Face Serum</title>
+    <meta name="description" content="Brighten your skin with NatureBloom's Turmeric Face Serum, infused with Turmeric, Saffron, and Almond Oil to reduce dark spots and blemishes.">
+    <meta name="keywords" content="NatureBloom Organics, turmeric serum, face serum, organic serum, turmeric, saffron, almond oil, skin brightening, dark spot reduction, blemish control, natural skincare, product details">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #4A4A4A; /* Darker gray for general text on white backgrounds */
+            background-color: #F7FAFC; /* Lightest gray background */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Brand Colors (Shades of Green) */
+        .text-brand-primary {
+            color: #388E3C; /* Green 700 - Darker vibrant green */
+        }
+        .text-brand-secondary {
+            color: #8BC34A; /* Light Green 500 - Lighter green accent */
+        }
+        .bg-brand-light {
+            background-color: #E8F5E9; /* Lightest Green */
+        }
+        .bg-brand-accent {
+            background-color: #C8E6C9; /* Green 100 - Slightly darker light green */
+        }
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); /* Lightest Green to Light Green gradient */
+        }
+        .btn-primary {
+            background-color: #388E3C; /* Green 700 */
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2E7D32; /* Green 800 - Darker green on hover */
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background-color: #F7FAFC; /* Lightest gray */
+            color: #388E3C; /* Green 700 */
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: 1px solid #8BC34A; /* Light Green border */
+        }
+        .btn-secondary:hover {
+            background-color: #E8F5E9; /* Lightest Green on hover */
+            transform: translateY(-2px);
+        }
+        .footer-bg {
+            background-color: #1B5E20; /* Dark Green 900 for footer */
+        }
+        .main-content {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-brand-primary">NatureBloom Organics</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Home</a></li>
+                    <li><a href="products.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Products</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Details Section -->
+    <main class="main-content bg-brand-light py-16 md:py-24">
+        <div class="container mx-auto px-4 max-w-3xl p-8 rounded-xl shadow-lg bg-white">
+            <h1 class="text-5xl font-bold mb-6 text-brand-primary">Turmeric Face Serum</h1>
+            <img src="https://placehold.co/400x400/C8E6C9/388E3C?text=Turmeric+Face+Serum" alt="Dropper bottle of NatureBloom Turmeric Face Serum" class="rounded-lg mb-8 mx-auto w-full max-w-xs h-auto object-cover">
+            
+            <p class="text-lg leading-relaxed mb-4 text-gray-700">
+                Our Turmeric Face Serum is a powerful elixir designed to brighten your complexion and reduce the appearance of dark spots and blemishes. This potent blend harnesses the natural benefits of Turmeric, Saffron, and nourishing Almond Oil to promote an even skin tone and a healthy glow.
+            </p>
+            <p class="text-lg leading-relaxed mb-6 text-gray-700">
+                Gently pat a few drops onto clean skin as part of your morning routine to revitalize and protect, or use it at night for overnight repair and rejuvenation.
+            </p>
+            
+            <h3 class="text-2xl font-semibold mb-3 text-brand-primary">Key Ingredients:</h3>
+            <ul class="list-disc list-inside text-lg leading-relaxed mb-6 text-gray-700 mx-auto max-w-md text-left">
+                <li><strong>Turmeric:</strong> Brightens skin and provides antioxidant benefits.</li>
+                <li><strong>Saffron:</strong> Enhances complexion and reduces pigmentation.</li>
+                <li><strong>Almond Oil:</strong> Nourishes and moisturizes the skin.</li>
+            </ul>
+
+            <p class="text-2xl font-bold text-brand-primary mb-8">Price: $38.00</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#" class="btn-primary inline-block">Buy Now</a>
+                <a href="products.html" class="btn-secondary inline-block">Return to Products</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bg text-white py-8">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 NatureBloom Organics. All rights reserved.</p>
+            <p class="mt-2">Crafted with <span class="text-red-400">&hearts;</span> for you and the planet.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
