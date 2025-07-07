@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureBloom Organics - Contact Us</title>
+    <meta name="description" content="Get in touch with NatureBloom Organics. Contact us for inquiries about our organic skincare products, partnerships, or general feedback.">
+    <meta name="keywords" content="NatureBloom Organics contact, organic skincare support, natural beauty inquiries, customer service, partnership, feedback, contact form, email, phone, address, Instagram, Facebook, YouTube">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #4A4A4A; /* Darker gray for general text on white backgrounds */
+            background-color: #F7FAFC; /* Lightest gray background */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Brand Colors (Shades of Green) */
+        .text-brand-primary {
+            color: #388E3C; /* Green 700 - Darker vibrant green */
+        }
+        .text-brand-secondary {
+            color: #8BC34A; /* Light Green 500 - Lighter green accent */
+        }
+        .bg-brand-light {
+            background-color: #E8F5E9; /* Lightest Green */
+        }
+        .bg-brand-accent {
+            background-color: #C8E6C9; /* Green 100 - Slightly darker light green */
+        }
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); /* Lightest Green to Light Green gradient */
+        }
+        .btn-primary {
+            background-color: #388E3C; /* Green 700 */
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2E7D32; /* Green 800 - Darker green on hover */
+            transform: translateY(-2px);
+        }
+        .footer-bg {
+            background-color: #1B5E20; /* Dark Green 900 for footer */
+        }
+        .card { /* Reusing card styles for contact info boxes */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-brand-primary">NatureBloom Organics</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Home</a></li>
+                    <li><a href="products.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Products</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-brand-primary font-semibold transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="bg-gradient-hero py-16 md:py-24 text-center rounded-b-3xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-4 text-brand-primary">
+                Connect with NatureBloom
+            </h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-700">
+                We'd love to hear from you! Whether you have a question about our products, a partnership inquiry, or just want to share your NatureBloom journey, reach out to us.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-4xl font-bold text-center mb-12 text-brand-primary">What's on your mind?</h2>
+            <form action="contact_confirmation.html" method="GET" class="bg-brand-light p-8 rounded-xl shadow-lg border border-brand-accent">
+                <div class="mb-6">
+                    <label for="name" class="block text-gray-700 text-lg font-semibold mb-2">Your Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-brand-accent rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary" placeholder="Jane Doe" required>
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-gray-700 text-lg font-semibold mb-2">Your Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-brand-accent rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary" placeholder="jane.doe@example.com" required>
+                </div>
+                <div class="mb-8">
+                    <label for="message" class="block text-gray-700 text-lg font-semibold mb-2">Your Message</label>
+                    <textarea id="message" name="message" rows="6" class="w-full px-4 py-3 border border-brand-accent rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary resize-y" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn-primary inline-block w-full sm:w-auto">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Business Info and Social Media Section -->
+    <section class="py-16 md:py-24 section-bg-light">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <h2 class="text-4xl font-bold mb-12 text-brand-primary">Find Us Here</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <!-- Business Address -->
+                <div class="bg-white p-6 rounded-xl shadow-lg card">
+                    <h3 class="text-2xl font-semibold mb-3 text-brand-primary">Our Address</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        NatureBloom Organics Headquarters<br>
+                        123 Green Oasis Lane<br>
+                        Botanical City, BC 90210<br>
+                        Earth
+                    </p>
+                </div>
+                <!-- General Contact -->
+                <div class="bg-white p-6 rounded-xl shadow-lg card">
+                    <h3 class="text-2xl font-semibold mb-3 text-brand-primary">General Inquiries</h3>
+                    <p class="text-gray-700">Email: <a href="mailto:info@naturebloom.com" class="hover:underline text-brand-primary">info@naturebloom.com</a></p>
+                    <p class="text-gray-700">Phone: <a href="tel:+15551234567" class="hover:underline text-brand-primary">+1 (555) 123-4567</a></p>
+                </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <h3 class="text-3xl font-bold mb-8 text-brand-primary">Connect With Us</h3>
+            <div class="flex justify-center space-x-6">
+                <img src="https://placehold.co/64x64/E8F5E9/388E3C?text=Insta" alt="Instagram Icon" class="w-16 h-16 rounded-full shadow-md">
+                <img src="https://placehold.co/64x64/E8F5E9/388E3C?text=FB" alt="Facebook Icon" class="w-16 h-16 rounded-full shadow-md">
+                <img src="https://placehold.co/64x64/E8F5E9/388E3C?text=YT" alt="YouTube Icon" class="w-16 h-16 rounded-full shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bg text-white py-8">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 NatureBloom Organics. All rights reserved.</p>
+            <p class="mt-2">Crafted with <span class="text-red-400">&hearts;</span> for you and the planet.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
