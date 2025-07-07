@@ -12,56 +12,56 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            color: #4A4A4A; /* Darker gray for general text on white backgrounds */
-            background-color: #FFF5F7; /* Very light pink background */
+            color: #333; /* Dark gray for general text on white backgrounds */
+            background-color: #F7FAFC; /* Lightest gray background */
         }
         h1, h2, h3 {
             font-family: 'Playfair Display', serif;
         }
-        /* New Brand Colors (Shades of Pink and Watermelon) */
+        /* New Brand Colors (Shades of Green) */
         .text-brand-primary {
-            color: #E91E63; /* A vibrant pink for main elements */
+            color: #388E3C; /* Green 700 - Darker vibrant green */
         }
         .text-brand-secondary {
-            color: #FC94AF; /* The specified pink */
+            color: #8BC34A; /* Light Green 500 - Lighter green accent */
         }
         .bg-brand-light {
-            background-color: #FE7F9C; /* The specified watermelon */
+            background-color: #F0FDF4; /* Green 50 - Very light green */
         }
         .bg-brand-accent {
-            background-color: #FC94AF; /* The specified pink */
+            background-color: #C8E6C9; /* Green 100 - Slightly darker light green */
         }
         .bg-gradient-hero {
-            background: linear-gradient(135deg, #FE7F9C 0%, #FC94AF 100%); /* Watermelon to Pink gradient */
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); /* Lightest Green to Light Green gradient */
         }
         .btn-primary {
-            background-color: #E91E63; /* Vibrant Pink */
+            background-color: #388E3C; /* Green 700 */
             color: white;
             padding: 0.75rem 2rem;
             border-radius: 9999px;
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
         .btn-primary:hover {
-            background-color: #C2185B; /* Darker vibrant pink on hover */
+            background-color: #2E7D32; /* Green 800 - Darker green on hover */
             transform: translateY(-2px);
         }
         .btn-secondary {
-            background-color: #FFF5F7; /* Very light pink */
-            color: #E91E63; /* Vibrant Pink */
+            background-color: #F7FAFC; /* Lightest gray */
+            color: #388E3C; /* Green 700 */
             padding: 0.75rem 2rem;
             border-radius: 9999px;
             transition: background-color 0.3s ease, transform 0.3s ease;
-            border: 1px solid #FC94AF; /* Pink border */
+            border: 1px solid #8BC34A; /* Light Green border */
         }
         .btn-secondary:hover {
-            background-color: #FE7F9C; /* Watermelon on hover */
+            background-color: #E8F5E9; /* Lightest Green on hover */
             transform: translateY(-2px);
         }
         .section-bg-light {
-            background-color: #FE7F9C; /* The specified watermelon */
+            background-color: #E8F5E9; /* Lightest Green */
         }
         .footer-bg {
-            background-color: #7A004D; /* Dark Plum/Berry Pink for footer */
+            background-color: #1B5E20; /* Dark Green 900 for footer */
         }
         /* White Outline Effect for Text */
         .text-outline-white {
@@ -95,7 +95,7 @@
             <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6 text-brand-primary text-outline-white">
                 Embrace Your Natural Radiance
             </h1>
-            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto text-white">
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto text-gray-700">
                 At NatureBloom Organics, we believe in the power of nature to nurture your skin. Discover our exquisite range of organic, chemical-free skincare crafted for your well-being and the planet's health.
             </p>
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -116,7 +116,7 @@
             <p class="text-lg leading-relaxed mb-8 text-gray-700">
                 NatureBloom Organics is dedicated to creating skincare that's as kind to your skin as it is to the Earth. We meticulously select the finest organic ingredients, free from harsh chemicals, parabens, and synthetic fragrances. Our commitment extends beyond beauty – it's a promise of purity, sustainability, and ethical practices.
             </p>
-            <img src="https://placehold.co/800x450/FC94AF/E91E63?text=Natural+Ingredients" alt="Assortment of natural and organic ingredients like herbs, flowers, and essential oils" class="rounded-xl shadow-lg mx-auto w-full h-auto object-cover max-w-2xl">
+            <img src="https://placehold.co/800x450/C8E6C9/388E3C?text=Natural+Ingredients" alt="Assortment of natural and organic ingredients like herbs, flowers, and essential oils" class="rounded-xl shadow-lg mx-auto w-full h-auto object-cover max-w-2xl">
         </div>
     </section>
 
@@ -127,23 +127,23 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Product Card 1 -->
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center card">
-                    <img src="https://placehold.co/300x300/FE7F9C/E91E63?text=Rosehip+Facial+Oil" alt="Bottle of NatureBloom Rosehip Facial Oil" class="rounded-lg mb-4 w-48 h-48 object-cover">
+                    <img src="https://placehold.co/300x300/E8F5E9/388E3C?text=Rosehip+Facial+Oil" alt="Bottle of NatureBloom Rosehip Facial Oil" class="rounded-lg mb-4 w-48 h-48 object-cover">
                     <h3 class="text-2xl font-semibold mb-2 text-brand-primary">Radiant Rosehip Facial Oil</h3>
-                    <p class="text-gray-600 text-center mb-4">A nourishing blend for a luminous, youthful glow.</p>
+                    <p class="text-gray-700 text-center mb-4">A nourishing blend for a luminous, youthful glow.</p>
                     <a href="products.html#rosehip-oil" class="btn-primary text-sm">Learn More</a>
                 </div>
                 <!-- Product Card 2 -->
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center card">
-                    <img src="https://placehold.co/300x300/FE7F9C/E91E63?text=Lavender+Body+Lotion" alt="Tube of NatureBloom Lavender Body Lotion" class="rounded-lg mb-4 w-48 h-48 object-cover">
+                    <img src="https://placehold.co/300x300/E8F5E9/388E3C?text=Lavender+Body+Lotion" alt="Tube of NatureBloom Lavender Body Lotion" class="rounded-lg mb-4 w-48 h-48 object-cover">
                     <h3 class="text-2xl font-semibold mb-2 text-brand-primary">Calming Lavender Body Lotion</h3>
-                    <p class="text-gray-600 text-center mb-4">Deep hydration with the soothing essence of lavender.</p>
+                    <p class="text-gray-700 text-center mb-4">Deep hydration with the soothing essence of lavender.</p>
                     <a href="products.html#lavender-lotion" class="btn-primary text-sm">Learn More</a>
                 </div>
                 <!-- Product Card 3 -->
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center card">
-                    <img src="https://placehold.co/300x300/FE7F9C/E91E63?text=Green+Tea+Cleanser" alt="Bottle of NatureBloom Green Tea Cleanser" class="rounded-lg mb-4 w-48 h-48 object-cover">
+                    <img src="https://placehold.co/300x300/E8F5E9/388E3C?text=Green+Tea+Cleanser" alt="Bottle of NatureBloom Green Tea Cleanser" class="rounded-lg mb-4 w-48 h-48 object-cover">
                     <h3 class="text-2xl font-semibold mb-2 text-brand-primary">Purifying Green Tea Cleanser</h3>
-                    <p class="text-gray-600 text-center mb-4">Gently cleanse and detoxify for fresh, clear skin.</p>
+                    <p class="text-gray-700 text-center mb-4">Gently cleanse and detoxify for fresh, clear skin.</p>
                     <a href="products.html#green-tea-cleanser" class="btn-primary text-sm">Learn More</a>
                 </div>
             </div>
@@ -159,7 +159,7 @@
     <section class="py-16 md:py-24 bg-gradient-hero text-center">
         <div class="container mx-auto px-4 max-w-3xl">
             <h2 class="text-4xl font-bold mb-6 text-brand-primary text-outline-white">Ready to Embrace Nature's Touch?</h2>
-            <p class="text-lg leading-relaxed mb-8 text-white">
+            <p class="text-lg leading-relaxed mb-8 text-gray-700">
                 Join the NatureBloom family and experience skincare that's pure, effective, and ethically made. Your journey to radiant, healthy skin starts here.
             </p>
             <a href="contact.html" class="btn-primary inline-block">
